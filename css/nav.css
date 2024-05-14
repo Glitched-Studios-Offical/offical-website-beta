@@ -1,0 +1,267 @@
+#navbar {
+	overflow: hidden;
+	background-color: black;
+	transition: top 0.5s; 
+	border: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: boxShadowRotate 5s ease infinite;
+	animation: borderRotate 5s ease infinite;
+	align-items: center;
+	color: white;	
+  	text-align: center;
+  	display: block;
+	cursor: pointer;
+	display: flex;
+ 	padding: 15px 25px;
+}
+button{
+	overflow: hidden;
+	background-color: black;
+	transition: top 0.5s; 
+	border: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: boxShadowRotate 5s ease infinite;
+	animation: borderRotate 5s ease infinite;
+	align-items: center;
+	color: white;	
+  	text-align: center;
+  	display: block;
+	cursor: pointer;
+	display: flex;
+ 	padding: 15px 25px;
+}
+
+/* Navbar links */
+#navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	animation: rainbowGradientAnimation 15s ease infinite;
+	background: grey;
+	}
+#navbar p {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	animation: rainbowGradientAnimation 15s ease infinite;
+}
+#navbar discord
+{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	animation: rainbowGradientAnimation 15s ease infinite;
+}
+#navbar discord:hover
+{
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	background: blue;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	
+}
+	@keyframes rainbowGradientAnimation {
+		0% {
+			background: linear-gradient(to right, #ff0000, #ffa500);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		5% {
+			background: linear-gradient(to right, #ffa500, #ffff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		10% {
+			background: linear-gradient(to right, #ffff00, #00ff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		15% {
+			background: linear-gradient(to right, #00ff00, #00ffff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		20% {
+			background: linear-gradient(to right, #00ffff, #0000ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		25% {
+			background: linear-gradient(to right, #0000ff, #8b00ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		30% {
+			background: linear-gradient(to right, #8b00ff, #ff00ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		35% {
+			background: linear-gradient(to right, #ff00ff, #ff69b4);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		40% {
+			background: linear-gradient(to right, #ff69b4, #ff0000);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		45% {
+			background: linear-gradient(to right, #ff0000, #ffa500);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		50% {
+			background: linear-gradient(to right, #ffa500, #ffff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		55% {
+			background: linear-gradient(to right, #ffff00, #00ff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		60% {
+			background: linear-gradient(to right, #00ff00, #00ffff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		65% {
+			background: linear-gradient(to right, #00ffff, #0000ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		70% {
+			background: linear-gradient(to right, #0000ff, #8b00ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		75% {
+			background: linear-gradient(to right, #8b00ff, #ff00ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		80% {
+			background: linear-gradient(to right, #ff00ff, #ff69b4);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		85% {
+			background: linear-gradient(to right, #ff69b4, #ff0000);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		90% {
+			background: linear-gradient(to right, #ff0000, #ffa500);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		95% {
+			background: linear-gradient(to right, #ffa500, #ffff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		100% {
+			background: linear-gradient(to right, #ffff00, #00ff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+	}
+#navbar a:hover {
+	float: left;
+	display: block;
+	color: blue;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+/* Page content */
+.content {
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	transition: top 0.5s; /* add animation */
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement */
+.sticky +.content {
+	padding-top: 60px;
+}
+p{
+color: white;
+}
+
+@keyframes boxShadowRotate {
+		0% {
+				box-shadow: 0px 0px 100px rgba(250, 88, 242, 0.15);
+		}
+		25% {
+				box-shadow: 0px 0px 100px rgba(0, 153, 255, 0.15);
+		}
+		50% {
+				box-shadow: 0px 0px 100px rgba(0, 255, 0, 0.15);
+		}
+		75% {
+				box-shadow: 0px 0px 100px rgba(255, 51, 153, 0.15);
+		}
+		100% {
+				box-shadow: 0px 0px 100px rgba(250, 88, 242, 0.15);
+		}
+}
+
+@keyframes borderRotate {
+		0% {
+				border: 2px solid rgb(250, 88, 128);
+		}
+		25% {
+				border: 2px solid rgb(0, 153, 255);
+		}
+		50% {
+				border: 2px solid rgb(0, 255, 0);
+		}
+		75% {
+				border: 2px solid rgb(255, 51, 153);
+		}
+		100% {
+				border: 2px solid rgb(250, 88, 128);
+		}
+}
